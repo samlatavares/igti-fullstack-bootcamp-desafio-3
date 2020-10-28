@@ -1,0 +1,41 @@
+.title {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.flexRow {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.leftRightSpace {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.installmentCard {
+  width: 30px;
+  height: 20px;
+  flex: 1;
+}
+
+.installmentMonth {
+  flex: 0 1 auto;
+}
+
+.installmentGrid {
+  width: 80%;
+  padding: 10px;
+  display: flex;
+}
+
+.rowWrap {
+  flex-flow: column nowrap;
+}
