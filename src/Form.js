@@ -8,7 +8,7 @@ export default function Form({ handleChange }) {
         <h1>React - Juros Compostos</h1>
       </div>
       <div className="flexRow">
-        <div className="leftRightSpace">
+        <div className="marginSpace">
           <label>Montante Inicial:</label>
           <input
             type="number"
@@ -18,7 +18,7 @@ export default function Form({ handleChange }) {
             onChange={handleChange}
           />
         </div>
-        <div className="leftRightSpace">
+        <div className="marginSpace">
           <label>Taxa de juros mensal:</label>
           <input
             type="number"
@@ -28,7 +28,7 @@ export default function Form({ handleChange }) {
             onChange={handleChange}
           />
         </div>
-        <div className="leftRightSpace">
+        <div className="marginSpace">
           <label>Período (meses):</label>
           <input
             type="number"

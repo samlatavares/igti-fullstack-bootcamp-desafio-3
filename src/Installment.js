@@ -3,14 +3,20 @@ import css from './style.css';
 
 export default function Installment({ month, total, difference, percentage }) {
   return (
-    <div className="installmentCard">
+    <div className="flexDirectionRow">
       <div>
-        <label className="leftRightSpace">{month}</label>
+        <label className="marginSpace">{month}</label>
       </div>
       <div>
-        <label className="leftRightSpace">{total}</label>
-        <label className="leftRightSpace">{difference}</label>
-        <label className="leftRightSpace">{percentage}</label>
+        <div>
+          <label className="marginSpace">{total}</label>
+        </div>
+        <div>
+          <label className="marginSpace">{difference}</label>
+        </div>
+        <div>
+          <label className="marginSpace">{percentage}</label>
+        </div>
       </div>
     </div>
   );

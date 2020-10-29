@@ -15,15 +15,13 @@
   flex-direction: column;
 }
 
-.leftRightSpace {
-  margin-left: 5px;
-  margin-right: 5px;
+.marginSpace {
+  margin: 5px 5px 5px 5px;
 }
 
 .installmentCard {
-  width: 30px;
-  height: 20px;
-  flex: 1;
+  width: 120px;
+  border: 1px solid gray;
 }
 
 .installmentMonth {
@@ -37,5 +35,14 @@
 }
 
 .rowWrap {
-  flex-flow: column nowrap;
+  flex-flow: row wrap;
+}
+
+.columnNowrap {
+  flex-flow: column wrap;
+}
+
+.flexDirectionRow {
+  display: flex;
+  flex-direction: row;
 }
