@@ -4,11 +4,11 @@ export default function Form({ handleChange }) {
   return (
     <div>
       <div>
-        <h1>React - Juros Compostos</h1>
+        <h1>Compound Interest Calculator</h1>
       </div>
       <div className="flexRow">
         <div className="marginSpace">
-          <label>Montante Inicial:</label>
+          <label>Initial Value:</label>
           <input
             type="number"
             min="0"
@@ -18,7 +18,7 @@ export default function Form({ handleChange }) {
           />
         </div>
         <div className="marginSpace">
-          <label>Taxa de juros mensal:</label>
+          <label>Montly interest:</label>
           <input
             type="number"
             min="-12"
@@ -28,7 +28,7 @@ export default function Form({ handleChange }) {
           />
         </div>
         <div className="marginSpace">
-          <label>Período (meses):</label>
+          <label>Term (months):</label>
           <input
             type="number"
             min="1"
