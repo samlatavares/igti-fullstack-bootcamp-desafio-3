@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import css from './style.css';
+import React from 'react';
 
 export default function Installment({ month, total, difference, percentage }) {
   return (

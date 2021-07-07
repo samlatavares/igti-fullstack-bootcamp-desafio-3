@@ -20,6 +20,8 @@ export default function App() {
       case 'tax':
         setTax(event.target.value);
         break;
+      default:
+        break;
     }
   };
 

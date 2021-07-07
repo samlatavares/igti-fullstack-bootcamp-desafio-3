@@ -1,5 +1,4 @@
 import React from 'react';
-import css from './style.css';
 
 export default function Form({ handleChange }) {
   return (

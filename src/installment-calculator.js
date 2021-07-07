@@ -6,7 +6,7 @@ export default function installmentCalculator(tax, amount, period) {
     let interest = Math.pow(1 + taxPercentage, i);
     let total = Math.abs(amount * interest);
     let difference = total - amount;
-    let percentage = amount == 0 ? 0 : difference / amount;
+    let percentage = amount === 0 ? 0 : difference / amount;
 
     let installment = {
       month: i,
