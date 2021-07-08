@@ -4,7 +4,7 @@ export default function Installment({ month, total, difference, percentage }) {
   return (
     <div className="flexDirectionRow">
       <div>
-        <label className="marginSpace">{month}</label>
+        <label className="marginSpace"><b>{month}</b></label>
       </div>
       <div>
         <div>
