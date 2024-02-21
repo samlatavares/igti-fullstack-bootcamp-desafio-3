@@ -1,6 +1,6 @@
 # igti-fullstack-bootcamp-desafio-3
 
-<img src="images/Project screenshot.png" alt="Captura de tela do projeto."></img>
+<img src="https://github.com/samlatavares/igti-fullstack-bootcamp-desafio-3/blob/main/images/Project%20screenshot.png" alt="Captura de tela do projeto."></img>
 
 ## O que é esse projeto?
 Foi um desafio realizado durante o Bootcamp Fullstack do IGTI.
