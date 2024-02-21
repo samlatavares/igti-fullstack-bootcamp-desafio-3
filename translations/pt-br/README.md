@@ -10,5 +10,5 @@ Foi um desafio realizado durante o Bootcamp Fullstack do IGTI.
 - Realizar o download do Visual Studio Code
 - Realizar o download do NPM
 - Clonar esse repositório
-- Exeutar o <b>npm install</b> na pasta do projeto para instalar as dependências necessárias
-- Exeutar <b>npm run start</b> e visualizar o projeto em localhost:3000 (ou na porta exibida no seu terminal)
+- Executar o <b>npm install</b> na pasta do projeto para instalar as dependências necessárias
+- Executar <b>npm run start</b> e visualizar o projeto em localhost:3000 (ou na porta exibida no seu terminal)
